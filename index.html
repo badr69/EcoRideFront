@@ -3,45 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="scss/main.css"/>
     <title>Document</title>
 </head>
+
 <body>
     <!----navbar  section----->
     <header>
-        <nav class="navbar navbar-expand-lg"  style="background-color: #4FEEF3;">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">EcoRide</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="pages/home.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/Convoiturages.html">Convoiturages</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href="pages/Connexion.html">Connexion</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/Contact.html">Contact</a>
-                  </li>
-                </ul>
-              
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg"  style="background-color: #4FEEF3;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">EcoRide</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Convoiturages.html">Convoiturages</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="pages/Connexion.html">Connexion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Contact.html">Contact</a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+        
     </header>
 
     <main id="main-page">
         <!-- Le contenude la page sera injecté ici-->
     </main>
 
-    <footer>Le footer de mon site</footer>
+    <footer style="background-color: #4FEEF3;">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <h3>Adresse</h3>
+        </div>
+        <div class="col-6 col-lg-4">
+          <h3>Mail</h3>
+        </div>
+        <div class="col col-lg-4">
+          <h3></h3>
+        </div>
+      </div>
+      
+    </footer>
 
     <script type="module" src="Router/router.js"></script>
     <script src="node_modules//bootstrap/dist/js/bootstrap.bundle.min.js"></script>
